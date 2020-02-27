@@ -175,6 +175,7 @@ For example,
 `getWordCount("input2.txt", ",.!?;")` returns either `[["hello", 1], ["world", 3]]` or `[["world", 3], ["hello", 1]]`.    
 
 Hint: you need to call `getCleanWordList` and `getUniqueWords` in this function. 
+***Note: you may not use any built-in functions to count the number of words***
 
 ```python
 def getWordCount(filepath, charsToRemove):
